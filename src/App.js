@@ -51,7 +51,7 @@ const App = () => {
 
       console.log("Connected", accounts[0]);
 
-      setupEventListener();
+      // setupEventListener();
     } catch (error) {
       console.log(error);
     }
@@ -142,8 +142,8 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header gradient-text">My NFT Collection</p>
-          <p className="sub-text"> Find Cool NFTs</p>
+          <p className="header gradient-text">Funny Soccer NFT Collection</p>
+          <p className="sub-text"> Find funny NFT texts 😂</p>
           {currentAccount === ""
             ? renderNotConnectedContainer()
             : renderMintUI()}
