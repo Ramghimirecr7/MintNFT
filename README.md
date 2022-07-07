@@ -1,4 +1,4 @@
-# Mint Your Own NFT Collection
+# Mint Funny Soccer NFTs
 
 To get started, clone this repo and follow these commands:
 
